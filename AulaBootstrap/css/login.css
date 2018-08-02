@@ -1,0 +1,13 @@
+body {
+	min-height: 100vh; /*Usar a tela toda */
+	background-color: #CCC;
+	background-image: url('https://unsplash.it/g/1500/800?random');/*g/: so img preto e branco | 1500/800: resolucao | ?random: troca as imgs */
+}
+
+.login-form {
+	margin-top: 50vh; /*inicia na metade da tela, mas equilibra com o "transform: translateY" */
+	height: 200px;
+	background-color: #FFF;
+
+	transform: translateY(-50%); /*centralizar verticalmente*/
+}
