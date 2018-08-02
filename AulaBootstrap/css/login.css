@@ -1,13 +1,23 @@
 body {
-	min-height: 100vh; /*Usar a tela toda */
+	min-height: 100vh; /* Usar a tela toda */
 	background-color: #CCC;
 	background-image: url('https://unsplash.it/g/1500/800?random');/*g/: so img preto e branco | 1500/800: resolucao | ?random: troca as imgs */
 }
 
 .login-form {
-	margin-top: 50vh; /*inicia na metade da tela, mas equilibra com o "transform: translateY" */
-	height: 200px;
-	background-color: #FFF;
+	margin-top: 50vh; /* Inicia na metade da tela, mas equilibra com o "transform: translateY" */
+	padding: 20px 30px;
+	background-color: rgba(0, 0, 0, .7); /* .7 = 70% tranparencia */
+	color: #FFF; /*Cor da Fonte */
 
-	transform: translateY(-50%); /*centralizar verticalmente*/
+	transform: translateY(-50%); /* Centralizar verticalmente */
+}
+
+.login-form h1 {
+	margin: 0 0 5px;
+}
+
+.login-form h2 {
+	margin: 0 0 30px;
+	font-size: 1em;
 }
