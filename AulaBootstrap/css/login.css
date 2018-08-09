@@ -8,7 +8,7 @@ body {
 	margin-top: 50vh; /* Inicia na metade da tela, mas equilibra com o "transform: translateY" */
 	padding: 20px 30px;
 	background-color: rgba(0, 0, 0, .7); /* .7 = 70% tranparencia */
-	color: #FFF; /*Cor da Fonte */
+	color: #FFF; /* Cor da Fonte */
 
 	transform: translateY(-50%); /* Centralizar verticalmente */
 }
